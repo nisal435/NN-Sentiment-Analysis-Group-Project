@@ -24,17 +24,17 @@ st.markdown("""
 
 st.markdown("""
     <div class="watermark">
-        <img src="https://thumbs.dreamstime.com/b/male-chef-preparing-dish-food-review-website-page-flat-vector-illustration-symbolizing-online-criticism-culinary-art-342153061.jpg" />
+        <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/emotion-analysis-1579748-1335674.png" />
     </div>
 """, unsafe_allow_html=True)
 
 # Title and Input
-st.title("🍽️ TasteMood Analyzer")
+st.title("🌟 Mood Analyzer")
 st.markdown("<br>", unsafe_allow_html=True)
-st.subheader("Find out the mood behind your words!")
+st.subheader("Discover the sentiment behind your words!")
 st.markdown("<br>", unsafe_allow_html=True)
 
-user_input = st.text_area("Tell us about your food experience:")
+user_input = st.text_area("Describe your experience:")
 
 if st.button("Analyze Sentiment"):
     if user_input:
